@@ -1,0 +1,7 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile project(":dsl")
+    compile "com.google.code.gson:gson:2.8.6"
+}

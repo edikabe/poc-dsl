@@ -1,0 +1,5 @@
+rootProject.name = 'poc-dsl'
+
+include ':dsl'
+include ':app'
+
